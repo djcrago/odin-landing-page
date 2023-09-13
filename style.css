@@ -2,11 +2,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.header {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+.logo {
+    margin-right: auto;
 }
