@@ -15,6 +15,7 @@ ul {
 
 .header {
     display: flex;
+    justify-content: space-around;
     gap: 16px;
     padding: 16px;
 }
@@ -30,4 +31,8 @@ ul {
     background-color: #1F2937;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.content-1 {
+    display: flex;
 }
