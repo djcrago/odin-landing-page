@@ -166,3 +166,14 @@ button {
     border: 1px solid #f9faf8;
     border-radius: 14px;
 }
+
+/* above here is css for the content-3 area */
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    padding: 32px;
+}
