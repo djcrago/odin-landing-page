@@ -15,6 +15,7 @@ ul {
 
 .header {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     gap: 16px;
     padding: 16px;
@@ -27,7 +28,8 @@ ul {
 }
 
 .header,
-.footer {
+.footer,
+.content-1 {
     background-color: #1F2937;
     font-size: 18px;
     color: #e5e7eb;
@@ -36,3 +38,17 @@ ul {
 .content-1 {
     display: flex;
 }
+
+.main {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.top {
+    margin-bottom: auto;
+    display: flex;
+    gap: 16px;
+    
+}
+/* put 'header' and 'content-1' in one container to avoid code fluff */
