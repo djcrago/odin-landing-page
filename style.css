@@ -75,7 +75,7 @@ button {
     border-radius: 14px;
 }
 
-/* everything above here is css for the header area */
+/* above here is css for the header area */
 
 .content-1 {
     display: flex;
@@ -116,4 +116,28 @@ button {
 
 .card div {
     width: 150px;
+}
+
+/* above here is css for the content-1 area */
+
+.content-2 {
+    background-color: #e5e7eb;
+    padding: 132px 264px 124px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.signed {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: extra-bold;
+    color: #1f2937;
 }
