@@ -141,3 +141,28 @@ button {
     font-weight: extra-bold;
     color: #1f2937;
 }
+
+/* above here is css for the content-2 area */
+
+.content-3 {
+    display: flex;
+    background-color: #3882f6;
+    padding: 32px 94px;
+    margin: 72px 94px;
+    border-radius: 10px;
+}
+
+.call {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.click {
+    color: #e5e7eb;
+}
+
+.sign-up {
+    margin-left: auto;
+    border: 1px solid #f9faf8;
+    border-radius: 14px;
+}
