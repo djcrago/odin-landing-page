@@ -76,3 +76,44 @@ button {
 }
 
 /* everything above here is css for the header area */
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 124px 64px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    padding: 48px 0px;
+}
+
+.cards {
+    display: flex;
+    font-size: 18px;
+    color: #999b9e;
+    gap: 32px;
+}
+
+.card-img {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.card div {
+    width: 150px;
+}
