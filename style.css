@@ -18,7 +18,7 @@ ul {
     flex-direction: column;
     justify-content: space-around;
     gap: 16px;
-    padding: 16px;
+    padding: 32px 94px;
 }
 
 .logo {
@@ -28,15 +28,15 @@ ul {
 }
 
 .header,
-.footer,
-.content-1 {
+.footer {
     background-color: #1F2937;
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.content-1 {
+.header-bot {
     display: flex;
+    padding: 64px 0px;
 }
 
 .main {
@@ -45,10 +45,34 @@ ul {
     color: #f9faf8;
 }
 
-.top {
-    margin-bottom: auto;
+.header-top {
     display: flex;
     gap: 16px;
-    
 }
-/* put 'header' and 'content-1' in one container to avoid code fluff */
+
+.right {
+    width: 500px;
+    height: 250px;
+    margin-left: 64px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+/* everything above here is css for the header area */
